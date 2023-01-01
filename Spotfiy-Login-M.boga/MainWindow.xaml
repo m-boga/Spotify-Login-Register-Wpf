@@ -5,8 +5,18 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Spotfiy_Login_M.boga"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+        Title="MainWindow" Height="450" Width="800" WindowStyle="None" AllowsTransparency="True">
+    <Grid Background="Black">
+        <TextBlock HorizontalAlignment="Center" Height="44" Margin="0,10,0,0" TextWrapping="Wrap" Text="Spotify" VerticalAlignment="Top" Width="149" TextAlignment="Center" FontSize="36" FontFamily="Rockwell" FontWeight="Bold" Foreground="#FFEBEBEB"/>
+        <Grid HorizontalAlignment="Center" Height="309" VerticalAlignment="Center" Width="341" Background="#FF171717">
+            <TextBlock HorizontalAlignment="Center" Height="27" Margin="0,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="341" TextAlignment="Center" FontSize="18" Foreground="White" FontFamily="Rockwell"><Run Text="Welcome"/><Run Text=" "/><Run Language="tr-tr" Text="to"/><Run Text=" Spotifty"/><LineBreak/><Run/></TextBlock>
+            <TextBlock HorizontalAlignment="Center" Height="28" Margin="0,71,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="341" TextAlignment="Center" FontSize="14" Foreground="White" FontFamily="Rockwell" Text="Log İnto Your Account"/>
+            <TextBox HorizontalAlignment="Center" Height="27" Margin="0,104,0,0" TextWrapping="Wrap" Text="Please Enter E-Mail or Username" VerticalAlignment="Top" Width="210" Foreground="#FF858585" BorderBrush="#FFE0E0E0" Background="#FF171717"/>
+            <TextBox HorizontalAlignment="Center" Height="27" Margin="0,145,0,0" TextWrapping="Wrap" Text="Please Enter Password" VerticalAlignment="Top" Width="210" Foreground="#FF7B7B7B" Background="#FF171717" BorderBrush="#FFEDEDED"/>
+            <TextBlock HorizontalAlignment="Left" Height="15" Margin="170,177,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="105" TextAlignment="Center" FontSize="10" Foreground="White" FontFamily="Rockwell" Text="Forgot the Password"/>
+            <Button Content="Sign İn" HorizontalAlignment="Center" Height="26" Margin="0,197,0,0" VerticalAlignment="Top" Width="158" Background="#FF0D6223" Foreground="#FFFCFCFC" BorderBrush="#FF755C5C"/>
+            <TextBlock HorizontalAlignment="Left" Height="15" Margin="193,284,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="138" TextAlignment="Center" FontSize="10" Foreground="White" FontFamily="Rockwell" Text="Not Register Yet - Register"/>
+        </Grid>
+
     </Grid>
 </Window>
