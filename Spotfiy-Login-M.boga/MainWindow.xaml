@@ -17,7 +17,7 @@
             <Button Content="Sign İn" HorizontalAlignment="Center" Height="26" Margin="0,197,0,0" VerticalAlignment="Top" Width="158" Background="#FF0D6223" Foreground="#FFFCFCFC" BorderBrush="#FF755C5C"/>
             <TextBlock HorizontalAlignment="Left" Height="15" Margin="193,284,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="138" TextAlignment="Center" FontSize="10" Foreground="White" FontFamily="Rockwell" Text="Not Register Yet - Register"/>
         </Grid>
-        <Image Margin="309,10,332,395" Source="/aw2.jpg" d:LayoutOverrides="HorizontalAlignment"/>
+        <Image Margin="305,11,336,394" Source="/aw2.jpg" d:LayoutOverrides="HorizontalAlignment"/>
 
     </Grid>
 </Window>
